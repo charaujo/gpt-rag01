@@ -780,7 +780,7 @@ module appServicePlan './core/host/appserviceplan.bicep' =  {
     existingAppServicePlanResourceGroupName : _azureReuseConfig.existingAppServicePlanResourceGroupName
     tags: tags
     sku: {
-      name: 'P0v3'
+      name: 'S1'
       capacity: 1
     }
     kind: 'linux'
